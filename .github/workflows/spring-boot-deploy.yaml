@@ -27,7 +27,7 @@ jobs:
           echo "Checking the list of files in ${{ github.workspace }}"
           ls ${{ github.workspace }}
 
-      - name: Setting Up Python
+      - name: Setting Up Java
         uses: actions/checkout@v4
         #uses: actions/setup-java@v4
         with:
@@ -36,7 +36,7 @@ jobs:
 
       - run: echo "Java has been setup on ${{ runner.os }} server."
 
-      - name: Checking Python Version
+      - name: Checking Java Version
         run: java --version
 
       - name: Checking Job Status
