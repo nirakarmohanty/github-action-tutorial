@@ -2,4 +2,4 @@ server:
   port: 8181
 spring:
   application:
-    name: github-action
+    name: github-action-tutorial
