@@ -20,7 +20,7 @@ jobs:
           distribution: 'temurin'
           java-version: '21'
           check-latest: true
-      - run: java HelloWorldApp.java
+      - run: java GithubActionApplication.java
 
       - name: Build with Maven
         run: mvn --batch-mode --update-snapshots verify
