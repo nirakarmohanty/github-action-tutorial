@@ -37,3 +37,4 @@ jobs:
           password: ${{ secrets.DOCKER_PASSWORD }}
           repository: nirakarmohanty/next
           tags: latest, ${{ github,runner_number }}
+  
