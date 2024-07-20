@@ -1,4 +1,4 @@
-name: Build and Deploy in Docker
+name: 2.Build and Deploy in Docker
 
 on:
   push:
@@ -20,7 +20,6 @@ jobs:
           distribution: 'temurin'
           java-version: '21'
           check-latest: true
-      - run: java GithubActionApplication.java
 
       - name: Build with Maven
         run: mvn --batch-mode --update-snapshots verify
